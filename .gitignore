@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# Go
+*.exe
+*.exe~
+server
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
