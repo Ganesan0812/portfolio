@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ganesan-portfolio-api
+    env: go
+    rootDir: backend
+    buildCommand: go build -o server .
+    startCommand: ./server
+    envVars:
+      - key: PORT
+        value: 8080
